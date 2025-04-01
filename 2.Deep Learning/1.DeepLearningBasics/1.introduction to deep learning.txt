@@ -1,6 +1,6 @@
 
 ## Types of deep learning 
-1) ANN - Artificial neural network
+1) ANN - Artificial neural network / MLP - Mutli layered Perceptron
     a. classification 
     b. Regression
 2) CNN - Convolution neural network
@@ -9,4 +9,13 @@
     - used for NLP , if input in form of text , timeseries data
     - word embedding , LSTM RNN , GRU RNN , Bidirectional LSTM RNN , encoder & decoder , transformers & Bert 
     - Framework : tensorflow (Goodle) , Pytorch (FB)
+
+4) Auto encoders : 
+    - Used to compress the data without compromizing on quality
+
+5) GAN - Generative Adverserial network
+    - To generate images / audio etc 
     
+
+-----------------------------------------------------------------------------------------------------------
+

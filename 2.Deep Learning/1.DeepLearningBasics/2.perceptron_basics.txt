@@ -1,0 +1,40 @@
+## Percepron basics 
+
+    - Perceptron is a single layer neural network
+    - for a neuron , inputs are provided , lets consider inputs are IQ (x1) & no of study hrs (x2), and output is pass / failure of student
+    - with the inputs some weights are provided , lets say w1 & w2 and also bias as a constant value 
+    
+    z = W1X1 + W2X2 + b
+    z = summation (0 to n) Xi * Wi + b
+
+    - here nose i.e b is like a intercept in term of linear regression 
+
+    - Step 1 : neuron will sum all inputs considering noise and get z value 
+    - step 2 : here we apply activation func on z value to transform output
+
+    # Activation function : transformers output between some values of 0 to 1 or -1 to 1 
+    - step function : in case of step function if the value is less than equal to 0 , then it will be consider as 0 , 
+                        if the value is > 0 then its considered as 1 
+    - Sigmoid function : Z > 0.5 then value is 1 
+                        if z <= 0.5 then its 0 
+                        - here threshold value is 0.5 , this can be changed 
+
+    - why do we apply binary classification ?
+        -> to solve any binary classification problem 
+    
+    - If there is error between actual and predicted output then we have to update weights
+    - process of changing weights will go on untill we gets suitable outputs with better accuracy 
+
+
+# Loss Function : 
+    Error we are getting also known as loss function 
+
+
+## Advantages & Disadvantages of Perceptron : 
+    
+## Advantages :
+    - linear separable ( classification ) problem can be easily solved 
+
+
+## Disadvantages :
+    - In this feed forward neural network , updating weights is not efficient 
